@@ -1,0 +1,12 @@
+[package]
+name = "scot_consultoria_scraper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+easy-scraper = "0.2.0"
+reqwest = { version = "0.12.9", features = ["blocking"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sentry = "0.35.0"
